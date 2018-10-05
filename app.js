@@ -48,7 +48,8 @@ app.use(methodOverride('_method'));
 
 
 // seedDB();
-mongoose.connect("mongodb://localhost/yelp_camp_final");
+// mongoose.connect("mongodb://localhost/yelp_camp_final");
+mongoose.connect('mongodb://Kevin:kevinkevin123@ds123603.mlab.com:23603/kevinchedb');
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(indexRoutes);
