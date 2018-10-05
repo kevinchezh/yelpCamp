@@ -82,9 +82,6 @@ router.get('/:id/edit',middleware.checkCampGroundOwner,function(req,res){
         }
         res.render('campgrounds/edit',{campground:foundCamp});
     }); 
-    
-
-    
 });
 //UPDATE
 router.put('/:id',middleware.checkCampGroundOwner,function(req,res){
