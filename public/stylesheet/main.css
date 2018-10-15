@@ -12,3 +12,9 @@
 #delete-form{
     display:inline;
 }
+
+#loginbutton{
+    margin-top: 20px;
+    width: 30%;
+    display: center;
+}
